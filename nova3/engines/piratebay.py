@@ -35,8 +35,8 @@ from helpers import download_file, retrieve_url
 
 class piratebay(object):
     """ Search engine class """
-    url = 'https://thepiratebay.org'
-    name = 'The Pirate Bay'
+    url = 'https://pirateproxy.cam/'
+    name = 'TPB PirateProxy.cam'
     supported_categories = {'all': '0', 'music': '100', 'movies': '200', 'games': '400', 'software': '300'}
 
     def download_torrent(self, info):
